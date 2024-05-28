@@ -8,10 +8,11 @@
     </head>
 
     <body>
-        <!--change div to semantic tag "header"-->
+        <!--change div to semantic tag header-->
         <header>
             <h1>Hori<span class="seo">seo</span>n</h1>
-            <div>
+            <!--change div to semantic tag nav-->
+            <nav>
                 <ul>
                     <li>
                         <a href="#search-engine-optimization"
@@ -29,13 +30,22 @@
                         >
                     </li>
                 </ul>
-            </div>
+            </nav>
         </header>
-        <div class="hero"></div>
-        <div class="content">
-            <div class="search-engine-optimization">
+        <!--change div to semantic tag section-->
+        <secton class="hero"></secton>
+        <!--change div to semantic tag article-->
+        <article class="content">
+            <!--change div to semantic tag section-->
+            <!--added alt-->
+            <!--add id to SEO section-->
+            <section
+                id="search-engine-optimization"
+                class="search-engine-optimization"
+            >
                 <img
                     src="./assets/images/search-engine-optimization.jpg"
+                    alt="Desk with work essential items for productivity: macbook, almost empty coffee cup, pencils, pens, and highlighters, noteook with notes on what SEO needs."
                     class="float-left"
                 />
                 <h2>Search Engine Optimization</h2>
@@ -46,13 +56,14 @@
                     allows you to increase your visibility and find the right
                     customers for your business.
                 </p>
-            </div>
-            <div
+            </section>
+            <section
                 id="online-reputation-management"
                 class="online-reputation-management"
             >
                 <img
                     src="./assets/images/online-reputation-management.jpg"
+                    alt="A person using their phone and laptop to check stats on reputation."
                     class="float-right"
                 />
                 <h2>Online Reputation Management</h2>
@@ -63,10 +74,11 @@
                     Online Reputation Management gives you the control over what
                     potential customers see when they search for your business.
                 </p>
-            </div>
-            <div id="social-media-marketing" class="social-media-marketing">
+            </section>
+            <section id="social-media-marketing" class="social-media-marketing">
                 <img
                     src="./assets/images/social-media-marketing.jpg"
+                    alt="A group of people brainstorming for social media marketing with several images all over a table illustrating this."
                     class="float-left"
                 />
                 <h2>Social Media Marketing</h2>
@@ -76,8 +88,8 @@
                     platforms are suited to your brand, using analytics to find
                     the right markets and increase your lead generation.
                 </p>
-            </div>
-        </div>
+            </section>
+        </article>
         <div class="benefits">
             <div class="benefit-lead">
                 <h3>Lead Generation</h3>
